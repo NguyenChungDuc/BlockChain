@@ -1,0 +1,37 @@
+.wrapper h1 {
+  text-align: center;
+  margin: 10px 0;
+  color: orange;
+  font-size: 30px;
+}
+
+.wrapper .form-group {
+  margin: 0 auto;
+  width: 50%;
+}
+.wrapper .btn {
+  margin: 20px auto;
+  display: block;
+  width: 50%;
+  padding: 8px 0;
+  border-radius: 10px;
+  background-color: #4b527e;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.wrapper .btn:hover {
+  background-color: #626caf;
+}
+
+@media (max-width: 1080px) {
+  .wrapper .form-group {
+    width: 70%;
+  }
+}
+
+@media (max-width: 680px) {
+  .wrapper .form-group {
+    width: 90%;
+  }
+}

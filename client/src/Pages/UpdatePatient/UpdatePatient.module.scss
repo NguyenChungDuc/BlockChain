@@ -1,0 +1,21 @@
+.wrapper {
+  margin: 10px;
+  max-height: 100vh;
+  overflow: scroll;
+}
+.wrapper h1 {
+  text-align: center;
+  letter-spacing: 1px;
+  color: orange;
+}
+.wrapper form .btn {
+  margin-top: 20px;
+  width: 100%;
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
